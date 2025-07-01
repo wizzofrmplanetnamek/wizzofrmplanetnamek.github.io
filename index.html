@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Chichi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: radial-gradient(circle at center, #fff0f6, #ffe6f2);
+            min-height: 100vh;
+            padding: 20px;
+            cursor: default;
+        }
+        
+        .dancing-font {
+            font-family: 'Dancing Script', cursive;
+        }
+        
+        .photo-container:hover .photo-frame {
+            transform: rotate(3deg) scale(1.05);
+        }
+        
+        .photo-frame {
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .letter-container {
+            background: linear-gradient(to bottom right, white, #fff0f8);
+            box-shadow: 0 5px 30px rgba(232, 62, 140, 0.2);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(to right, #ff85a2, #f766a3);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 133, 162, 0.4);
+        }
+        
+        .heart {
+            animation: heartbeat 1.5s ease-in-out infinite;
+        }
+        
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            25% { transform: scale(1.1); }
+            50% { transform: scale(1); }
+            75% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center">
+    <div class="max-w-4xl w-full">
+        <header class="text-center my-8">
+            <div class="flex justify-center mb-4">
+                <svg class="heart h-16 w-16 text-pink-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
+                </svg>
+            </div>
+            <h1 class="text-5xl dancing-font text-pink-600 mb-2">Happy Birthday</h1>
+            <h2 class="text-2xl text-pink-700">To the most amazing girlfriend in the world!</h2>
+        </header>
+
+        <section class="mb-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <!-- Photo 1 -->
+                <div class="photo-container">
+                    <div class="photo-frame bg-white rounded-lg p-4 h-64 flex items-center justify-center overflow-hidden">
+                        <img src="C:\Users\Zapico\Downloads\56c432e1-af00-42a1-984d-27e8a5e996e5.jpg" alt="Picture natin na cute" class="max-h-full max-w-full object-contain">
+                    </div>
+                </div>
+
+                <!-- Photo 2 -->
+                <div class="photo-container">
+                    <div class="photo-frame bg-white rounded-lg p-4 h-64 flex items-center justify-center overflow-hidden">
+                        <img src="C:\Users\Zapico\Downloads\5ce9824c-bcfc-43d4-b4e8-a501f5445551.jpg" alt="Cute ulit" class="max-h-full max-w-full object-contain">
+                    </div>
+                </div>
+
+                <!-- Photo 3 -->
+                <div class="photo-container">
+                    <div class="photo-frame bg-white rounded-lg p-4 h-64 flex items-center justify-center overflow-hidden">
+                        <img src="C:\Users\Zapico\Downloads\a2db3bb0-fb25-4927-b5f9-5f19c394fade.jpg" alt="Cute nanaman" class="max-h-full max-w-full object-contain">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="letter-container rounded-lg p-8 mb-8">
+            <h3 class="text-xl dancing-font text-pink-700 mb-4">My Letter to You</h3>
+            <div class="text-pink-800 leading-relaxed">
+                <p class="mb-4">My Dearest Love,</p>
+                
+                <p class="mb-4">Happy birthday to the most wonderful and sobrang latinang eabab sa buhay ko! Sorry hon si Kream and itong website lang regalo ko sayo, hayaan mo padating na yung pangkulot mo.</p>
+                
+                <p class="mb-4">I hope ngayong birthday mo ay makuha mo yung saya na naibibigay mo sa'kin. Mag enjoy ka lang and bumili ka ng hindi mo kaylangan pero sasaya ka. You deserve all the happiness in the world.</p>
+                
+                <p class="mb-4">boom tarat tarat.</p>
+                
+                <p class="mb-4">With each passing year, yung pagmamahal ko sayo talagang umaatikabo. Hindi na ako makapag wait love na gumawa pa ng mas madaming memories kasama ka (eto na yun e nararamdaman ko na ikakasal tayo sa paris). Ginayuma mo siguro ako, kilig na kilig padin ako sa mga pictures na sinisend mo sakin😤.</p>
+                
+                <p class="dancing-font text-xl mb-4">Forever yours,</p>
+                <p class="dancing-font text-xl">Jarvypogi123Xd</p>
+            </div>
+        </section>
+
+        <div class="text-center mb-12">
+            <p class="text-pink-600 italic">I dedicate this song to you!</p>
+            <button onclick="window.open('https://youtu.be/oSz0dD5Wowg?si=TSCLLJBRQdQW1Ha5')" class="btn-primary text-white py-3 px-8 rounded-full text-lg dancing-font mt-4">
+                Music
+            </button>
+        </div>
+    </div>
+
+    <footer class="text-center text-pink-500 mb-4">
+        <p>Made in Orosa ❤️</p>
+    </footer>
+</body>
+</html>
